@@ -30,10 +30,11 @@ namespace CW9
         {
             while (numDarts > 0)
             {
-                double x = rnd.Next(0, 6);
-                double y = rnd.Next(0, 6);
+                double x = rnd.NextDouble();
+                double y = rnd.NextDouble();
 
                 double val = Math.Sqrt((x * x) + (y * y));
+
                 if (val <= 1.0)
                 {
                     numDarts--;
