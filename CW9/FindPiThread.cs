@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * @file: FindPiThread.cs
+ * @author: William Hayes
+ * @date:3/3/2023
+ * @brief: This is the FindPiThread file that calculates the number of throws 
+ * that made it into a circle.
+ * 
+ * This file helps calculate the number of throws that made it into a circle
+ * for the purpose of finding pi.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
